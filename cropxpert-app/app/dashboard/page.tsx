@@ -1,6 +1,7 @@
 "use client"
 
 import { useRouter } from "next/navigation"
+import { Analytics } from "@vercel/analytics/next"
 import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Leaf, LogOut } from "lucide-react"
